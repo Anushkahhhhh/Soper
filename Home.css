@@ -53,12 +53,12 @@ body {
 .par{
   color: #F0EBCE;
   position: relative;
-  left: 75px;
-  top: 50px;
+  left: 150px;
+  top: 100px;
 
 }
 .welcome{
-  font-size: 40px;
+  font-size: 60px;
 }
 footer {
   width: 100%;
@@ -130,6 +130,9 @@ footer input {
   font-size: 35px;
   padding: 10px;
 }
+.webpages i:hover{
+  color: #AA8B56;
+}
 .footertextcon:hover {
   color: #AA8B56;
   cursor: pointer;
@@ -141,7 +144,7 @@ footer input {
 .pic{
   position: relative;
   left: 70%;
-  bottom: 100px;
+  bottom: 170px;
   border: #F0EBCE solid 1px;
   width: 500px;
   height: 400px;
@@ -179,8 +182,8 @@ div.notice {
   box-sizing: border-box;
   background-image: url(#icon-world);
   position: relative;
-  bottom: 450px;
-  right: 740px;
+  bottom: 560px;
+  right: 370px;
 }
 
 .world svg {
@@ -199,28 +202,129 @@ div.notice {
   width: 100%;
   height: 600px;
   position: relative;
-  bottom: 200px;
+  top: 203px;
 }
 
-.thrdpart{
-  background-color: #AA8B56;
-  width: 100%;
-  height: 600px;
+.library {
+  transition: transform 1s;
+  margin-bottom: 10px;
+}
+
+.library:hover {
+  transform: translate(-100px);
+}
+
+.library img {
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+.library img:hover {
+  transform: scale(1.1);
+}
+
+.Lib {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 50%;
+  height: 500px;
   position: relative;
-  top: -75px;
+  left: 36%;
+  top: 1%;
+
+
 }
  .pict {
     position: relative;
     left: 5%;
-    bottom: 720px;
+    bottom: 302px;
     border: #AA8B56 solid 1px;
     width: 500px;
     height: 400px;
 }
-.aboutme{
+.abouttitle{
   position: relative;
   top: 100px;
   left: 60%;
   color: #AA8B56;
-  font-size: 40px;
+  font-size: 50px;
+}
+
+.backimage {
+  position: absolute;
+  width: 100%;
+  height: 500px;
+  margin-left: 100px;
+  background-image: url("Երկնքից ընկավ երեք խնձոր․jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: background-image 0.5s ease-in-out;
+
+}
+
+.backimage:active {
+  transform: rotate(50deg);
+}
+
+.scrol {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 800px;
+  position: relative;
+  top: 8%;
+  background-color: #AA8B56;
+}
+
+.library {
+  position: relative;
+  left: 20px;
+}
+
+.seebooks{
+  height: 60px;
+  width: 120px;
+  position: relative;
+  top: 150px;
+  left: 250px;
+  background-color: #395144;
+  color: #F0EBCE;
+  border: #F0EBCE 1px solid;
+  border-radius: 20px;
+}
+.seebooks:hover{
+background-color: #AA8B56;
+cursor: pointer;
+}
+
+.aboutus{
+  position: relative;
+  left: 60%;
+  top: 15%;
+  font-size: 16px;
+}
+
+.welcometwo{
+  font-size: 25px;
+}
+
+.aboutbut{
+
+    height: 60px;
+    width: 180px;
+    position: absolute;
+    left: 63%;
+    top: 268%;
+    font-size: 16px;
+    background-color:#F0EBCE;
+    border: #AA8B56 2px solid;
+    border-radius: 20px;
+}
+.aboutbut:hover{
+  background-color: #AA8B56;
+  color: #F0EBCE;
 }
