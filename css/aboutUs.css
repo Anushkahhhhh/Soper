@@ -234,7 +234,7 @@ footer input {
 .ad {
   width: 28%;
   height: 300px;
-  background-color: red;
+
 }
 
 .advantages {
@@ -243,4 +243,39 @@ footer input {
   width: 100%;
   display: flex;
   justify-content: space-around;
+}
+
+.fa-user:before {
+  content: "\f007";
+  color: #F0EBCE;
+}
+
+.advantage1 {
+  background-color: #AA8B56;
+}
+
+.fa-right-to-bracket:before,
+.fa-sign-in-alt:before {
+  content: "\f2f6";
+  color: #F0EBCE;
+}
+
+.advantage3 {
+  background-color: #AA8B56;
+}
+
+.advantage2 {
+  background-color: #F0EBCE;
+}
+
+.fa-user:hover{
+  color:#AA8B56 ;
+}
+
+@media only screen and (max-width: 1024px) {
+  .creatstorydiv {
+    width: 100%;
+    left: 0;
+  }
+
 }
