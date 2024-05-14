@@ -267,9 +267,9 @@ div.notice {
 
 }
 
-.backimage:active {
+/* .backimage:active {
   transform: rotate(50deg);
-}
+} */
 
 .scrol {
   display: flex;
