@@ -1,8 +1,10 @@
 const images = [
      "url(Images/Ճշմարտություն.jpg)",
-    "url(Images/Լռակյաց հիվանդը.jpg)",
-    "url(0_zHJya_cFQMtBXFvn.jpg)",
-    "url(13-captivating-facts-about-beinecke-library-1695483441.jpg)"
+    "url(Images/Լռակյացհիվանդը.jpg)",
+    "url(Images/Իմհանճարեղընկերուհին.jpg)",
+    "url(Images/Տատիկսբարևումէ.jpg)",
+    "url(Images/Ցասում.jpg)",
+    "url(Images/գիրք2.jpg)",
   ];
   const backImageElement = document.querySelector('.backimage');
   const libraryElements = document.querySelectorAll('.library img');
@@ -17,8 +19,8 @@ const images = [
     } else {
         currentImageIndex++;
     }
-    backImageElement.style.backgroundImage = libraryElements[1].getAttribute(`${images[currentImageIndex]}`);
-  }
+    backImageElement.style.backgroundImage = images[currentImageIndex];
+}
 
   console.log(libraryElements[1].getAttribute('src'))
   
