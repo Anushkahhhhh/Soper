@@ -202,11 +202,12 @@ footer input {
 .bigcomdiv {
     margin: 0 auto;
     overflow-y: scroll;
-    width: 60%;
+    width: 50%;
     height: 400px;
     background-color: #F0EBCE;
     position: relative;
     top: 132px;
+    box-shadow: 15px 15px 5px;
 }
 .opinion {
     position: absolute;
@@ -278,12 +279,12 @@ button {
     width: 12px;
   }
   *::-webkit-scrollbar-track {
-    background: rgb(85, 150, 207);
+    background-color:#AA8B56
   }
   *::-webkit-scrollbar-thumb {
-    background-color: blue;
+    background-color: #AA8B56;
     border-radius: 20px;
-    border: 3px solid orange;
+    border: 3px solid #382e1d;
   }
 
 
