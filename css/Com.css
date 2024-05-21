@@ -298,6 +298,15 @@ button {
     flex-direction: column;
 }
 
+.inpbut{
+    width: 50%;
+    height: 80px;
+    background-color: #F0EBCE;
+    position: relative;
+    top: 130px;
+    left: 25%;
+}
+
 .message-container {
     padding: 5px;
     margin: 5px 0;
