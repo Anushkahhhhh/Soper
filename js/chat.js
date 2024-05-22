@@ -1,3 +1,4 @@
+
 document.addEventListener('DOMContentLoaded', () => {
     const posibleQuestionAndAnswer = [
         { question: "Բարև Ձեզ, «Տան որսը» գրքի pdf տարբերակը կա", answer: "Ողջույն, հարգելի ընթերցող, ցավում եմ, բայց ոչ; Կարող եմ առաջարկել նույնաժանր գրքեր :)" },
@@ -60,12 +61,12 @@ document.addEventListener('DOMContentLoaded', () => {
             messageInput.value = '';
         }
     }
-// this part is responsible for the Enter key functionality to press it and send the message
-    document.getElementById("inputtext").addEventListener("keydown", function (event) {
+    // this part is responsible for the Enter key functionality to press it and send the message
+    document.getElementById("inputtext").addEventListener("keydown", function(event) {
         if (event.key === "Enter") {
             sendMessage();
         }
     });
-// in this part we invoke the message button 
+    // in this part we invoke the message button 
     document.getElementById("messageButton").addEventListener("click", sendMessage);
 });
