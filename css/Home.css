@@ -18,6 +18,11 @@ body {
   border: 2px solid #F0EBCE;
 }
 
+.fa-magnifying-glass {
+  position: relative;
+  right: 120px;
+  top: 8px;
+}
 
 .container {
   display: flex;
