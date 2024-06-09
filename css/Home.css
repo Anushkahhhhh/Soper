@@ -11,6 +11,13 @@ body {
   position: relative;
   border-bottom: 1px solid #F0EBCE;
 }
+.srch {
+  position: relative;
+  right: 75px;
+  border-radius: 20px;
+  border: 2px solid #F0EBCE;
+}
+
 
 .container {
   display: flex;
