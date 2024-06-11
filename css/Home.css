@@ -343,15 +343,8 @@ cursor: pointer;
 .imgpart2 {
   position: relative;
   right: 315px;
-  top: -793px;}
-<<<<<<< HEAD
-
-  .nic{
-    color:#F0EBCE;
-    
-  }
-=======
-.nic {
-  color: #F0EBCE
+  top: -793px;
 }
->>>>>>> 9d9636a797601cbeb8a4611896981db44ab7a784
+.nic{
+  color: #F0EBCE;
+}
