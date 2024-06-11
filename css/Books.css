@@ -50,83 +50,8 @@ body {
     color: #AA8B56;
   }
   
-  .sign {
-    position: relative;
-    width: 470px;
-    height: 480px;
-    margin: 70px auto;
-    border: 1px solid #F0EBCE;
-  }
-  
-  .subm {
-    width: 25%;
-    float: center;
-    color: #F0EBCE;
-    background-color: #AA8B56;
-    margin-left: 170px;
-  }
-  
-  .subm:hover {
-    opacity: 0.8;
-  }
-  
-  #Sign_title {
-    margin-top: -7px;
-    text-align: center;
-    color: #F0EBCE;
-  
-  }
-  
-  form input {
-    border-radius: 20px;
-    width: 90%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #395144;
-    box-sizing: border-box;
-    margin-bottom: 15px;
-    margin-left: 17px;
-  }
-  
-  .born {
-    color: #F0EBCE;
-    margin-left: 25px;
-  }
-  
-  .signdiv {
-    height: 50px;
-    width: 262px;
-    background-color: #AA8B56;
-    margin-left: 21%;
-    margin-top: 7px;
-    border-bottom-right-radius: 13px;
-    border-bottom-left-radius: 13px;
-  }
-  
-  .onoff {
-    width: 100px;
-    height: 40px;
-    background-color: #AA8B56;
-    position: relative;
-    bottom: 482px;
-    left: 47%;
-    border-radius: 20px;
-  }
-  
-  form {
-    margin-top: 80px;
-  }
-  
-  .sc1 {
-    width: 40px;
-    height: 40px;
-    background-color: #F0EBCE;
-    border-radius: 50%;
-    z-index: 400;
-    position: absolute;
-    right: 0;
-  }
+ 
+
   
   .icon {
     position: relative;
@@ -219,22 +144,3 @@ body {
     color: #AA8B56;
     cursor: pointer;
   }
-
-  .bookstype {
-    width: 20%;
-    height: 500px;
-    background-color: #F0EBCE;
-    display: inline-block;
-    margin-top: 23%;
-}
-
-  .books {
-    width: 70%;
-    height: 500px;
-    background-color: #AA8B56;
-    display: inline-block;
-    position: absolute;
-    top: 23%;
-    left: 486px;
-}
-
