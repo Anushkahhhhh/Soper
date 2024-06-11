@@ -11,6 +11,18 @@ body {
   position: relative;
   border-bottom: 1px solid #F0EBCE;
 }
+.srch {
+  position: relative;
+  right: 75px;
+  border-radius: 20px;
+  border: 2px solid #F0EBCE;
+}
+
+.fa-magnifying-glass {
+  position: relative;
+  right: 120px;
+  top: 8px;
+}
 
 .container {
   display: flex;
@@ -332,8 +344,14 @@ cursor: pointer;
   position: relative;
   right: 315px;
   top: -793px;}
+<<<<<<< HEAD
 
   .nic{
     color:#F0EBCE;
     
   }
+=======
+.nic {
+  color: #F0EBCE
+}
+>>>>>>> 9d9636a797601cbeb8a4611896981db44ab7a784
