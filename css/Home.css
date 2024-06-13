@@ -11,6 +11,18 @@ body {
   position: relative;
   border-bottom: 1px solid #F0EBCE;
 }
+.srch {
+  position: relative;
+  right: 75px;
+  border-radius: 20px;
+  border: 2px solid #F0EBCE;
+}
+
+.fa-magnifying-glass {
+  position: relative;
+  right: 120px;
+  top: 8px;
+}
 
 .container {
   display: flex;
@@ -260,16 +272,13 @@ div.notice {
   position: absolute;
   width: 50%;
   height: 650px;
-  background-image: url("../Images/new.jpg");
+  background-image: url("../Images/Վանականները.jpg");
   background-size: contain;
   background-repeat: no-repeat;
   transition: background-image 0.5s ease-in-out;
 
 }
 
-/* .backimage:active {
-  transform: rotate(50deg);
-} */
 
 .scrol {
   display: flex;
@@ -308,7 +317,7 @@ cursor: pointer;
   position: absolute;
   left: 60%;
   top: 25%;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .welcometwo{
@@ -322,7 +331,6 @@ cursor: pointer;
     width: 180px;
     position: absolute;
     left: 63%;
-    top: 240%;
     font-size: 16px;
     background-color:#F0EBCE;
     border: #AA8B56 2px solid;
@@ -335,4 +343,8 @@ cursor: pointer;
 .imgpart2 {
   position: relative;
   right: 315px;
-  top: -793px;}
+  top: -793px;
+}
+.nic{
+  color: #F0EBCE;
+}
