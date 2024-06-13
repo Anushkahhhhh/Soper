@@ -5,10 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Մուտք գործել</title>
+  <title>Գրքեր</title>
   <link rel="stylesheet" href="../css/Books.css">
   <script src="https://kit.fontawesome.com/81b271aa08.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
   <header>
     <nav class="navbar" id="navbar">
@@ -26,25 +27,133 @@
       </div>
     </nav>
   </header>
-  
-  <footer>
-    <p class="footertext">Գլխավոր էջ </p>
-    <p class="footertext">Գրքեր </p>
-    <p class="footertext">Համայնք </p>
-    <p class="footertext"> Մեր մասին </p>
-    <p class="footertextcon">Կապ մեզ հետ </p>
-    <p class="footertextcon">+37400000000</p>
-    <p class="footertextcon"> Soper@gmail.com </p>
-    <input type="text" placeholder="Գրեք կարծիք կայքի աշխատանքը բարելավելու համար"> <button
-      class="send">Ուղարկել</button>
-    <div class="webpages">
-      <i class="fa-brands fa-facebook"></i>
-      <i class="fa-brands fa-instagram"></i>
-      <i class="fa-brands fa-telegram"></i>
-      <p class="copyright">&copy; 2024 Սոփեր. բոլոր իրավունքները պաշտպանված են.</p>
+  <div class="typeofbooks">
+    <h2 style="color:#AA8B56; margin-left: 20px;">Ժանրեր</h2>
+    <p class="book">Առակներ</p>
+    <p class="book">Բանաստեղծություններ</p>
+    <p class="book">Գիտական հոդվածներ</p>
+    <p class="book">Դետեկտիվ</p>
+    <p class="book">էսսեներ</p>
+    <p class="book">Թրիլլերներ</p>
+    <p class="book">Հանելուկներ</p>
+    <p class="book">Մելոդրամաներ</p>
+    <p class="book">Սիրավեպեր</p>
+    <p class="book">Քրեական գրականություն</p>
+    <p class="book">Ֆանտաստիկա</p>
+    <p class="book">Ֆենտեզի</p>
+  </div>
+  <div class="books">
+    <h2 style="color: #F0EBCE; margin-left: 50px;">Գրքեր</h2>
+    <select id="selectbox1">
+      <option value="">Ընտրել ժանրը&hellip;</option>
+      <option value="Proverbs">Առակներ</option>
+      <option value="Poems">Բանաստեղծություններ</option>
+      <option value="Scientific articles">Գիտական հոդվածներ</option>
+      <option value="Detective and thriller">Դետեկտիվ</option>
+      <option value="Essays">էսսեներ</option>
+      <option value="Terrible">Թրիլլերներ</option>
+      <option value="Riddles">Հանելուկներ</option>
+      <option value="Romance novels">Սիրավեպեր</option>
+      <option value="Criminal literature">Քրեական գրականություն</option>
+      <option value="Fantasy">Ֆանտաստիկա</option>
+      <option value="Fantasy">Ֆենտեզի</option>
+    </select>
+    <select id="selectbox2">
+      <option value="">Ընտրել լեզուն&hellip;</option>
+      <option value="arm">Հայերեն</option>
+      <option value="rus">Ռուսերեն</option>
+      <option value="eng">Անգլերեն</option>
+      <input type="search" class="booksearch" placeholder="Որոնել"><i class="fa-solid fa-magnifying-glass"></i>
+    </select>
+    <div id="allbooks">
+      <div class="allbook Fantasy">
+        <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Դրակուլա-Անտարես ՖԱՆՏ.jpg">
+        <button class="see">Տեսնել</button>
+      </div>
+      <div class="allbook Fantasy">
+        <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Փայլատակում ֆանտ.jpg">
+        <button class="see">Տեսնել </button>
+      </div>
+      <div class="allbook Fantasy">
+        <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Կենդանի-մեռյալը-01-300x467.jpg">
+        <button class="see">Տեսնել </button>
+      </div>
+      <div class="allbook Fantasy">
+        <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Զսպաշապիկ-ֆանտ.jpg">
+        <button class="see">Տեսնել </button>
+      </div>
+      <div class="allbook Fantasy">
+        <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Բժիշկ-Ջեքիլի-և-պարոն-Հայդի-տարօրինակ-պատմությունը-01-300x467.jpg">
+        <button class="see">Տեսնել </button>
+      </div>
+      <div class="allbook Fantasy">
+        <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Հարրի-Փոթերը-և-Փյունիկի-միաբանությունը Ֆանտաստիկ.jpg">
+        <button class="see">Տեսնել </button>
+      </div>
+      <div class="allbook Fantasy">
+        <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Պրոֆեսոր-Դոուել-01-300x467.jpg">
+        <button class="see">Տեսնել </button>
+      </div>
+      <div class="allbook Fantasy">
+        <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Կեսգիշերի-զավակները-ֆանտաստիկ.png">
+        <button class="see">Տեսնել </button>
+      </div>
+      <div class="allbook Fantasy">
+        <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Ակադեմիան-և-կայսրությունը ֆանտ.jpg">
+        <button class="see">Տեսնել </button>
+      </div>
+      <div class="allbook Fantasy">
+        <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Ֆրանքենսթայն-01-300x467.jpg">
+        <button class="see">Տեսնել </button>
+      </div>
     </div>
-  </footer>
-  <script src="../js/Books.js"></script>
+  </div>
+
+  <h1 style="color:#AA8B56; margin-left: 20px; margin-bottom:1000px">Շուտով...</h1>
+
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Թունելից-13կմ.png" >
+
+    </div>
+
+    <div class="mySlides fade">
+      <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/70d808fbfd69a2030eac6a11b7ecb44c-removebg-preview.png" >
+
+    </div>
+
+    <div class="mySlides fade">
+      <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/550d4fb947ac33990c544b885912d1a9-removebg-preview.png" >
+  
+  </div>
+
+  <a class=" prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+    <br>
+    <div class="dots">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <footer>
+      <p class="footertext">Գլխավոր էջ </p>
+      <p class="footertext">Գրքեր </p>
+      <p class="footertext">Համայնք </p>
+      <p class="footertext"> Մեր մասին </p>
+      <p class="footertextcon">Կապ մեզ հետ </p>
+      <p class="footertextcon">+37400000000</p>
+      <p class="footertextcon"> Soper@gmail.com </p>
+      <input type="text" placeholder="Գրեք կարծիք կայքի աշխատանքը բարելավելու համար"> <button
+        class="send">Ուղարկել</button>
+      <div class="webpages">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-telegram"></i>
+        <p class="copyright">&copy; 2024 Սոփեր. բոլոր իրավունքները պաշտպանված են.</p>
+      </div>
+    </footer>
+    <script src="../js/Books.js"></script>
 </body>
 
 </html>
