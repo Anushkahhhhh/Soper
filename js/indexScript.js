@@ -50,3 +50,6 @@ content.innerHTML = content.innerHTML.replace(regex, '<span class="highlight">$1
 function removeHighlights(content) { 
 content.innerHTML = content.innerHTML.replace(/<span class="highlight">(.*?)<\/span>/g, '$1'); // jnjel naxkin hamynknumnery 
 } 
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'am' }, 'google_translate_element');
+}
