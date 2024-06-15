@@ -4,3 +4,6 @@ document.querySelector('#contact-form').addEventListener('submit', (e) => {
   e.target.elements.email.value = '';
   e.target.elements.message.value = '';
 });
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'am' }, 'google_translate_element');
+}
