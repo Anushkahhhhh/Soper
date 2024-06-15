@@ -70,3 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
     // in this part we invoke the message button 
     document.getElementById("messageButton").addEventListener("click", sendMessage);
 });
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'am' }, 'google_translate_element');
+}
