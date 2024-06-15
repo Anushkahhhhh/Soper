@@ -91,4 +91,6 @@ document.getElementById('selectbox1').addEventListener('change', function() {
         }
     });
 });
-
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'am' }, 'google_translate_element');
+}
