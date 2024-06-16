@@ -449,6 +449,15 @@ footer input {
 body {
   top: 0px !important;
 }
+.logo {
+  left: 4%;
+  position: relative;
+  top: 162px;
+  justify-content: center;
+  display: flex;
+  width: 12%;
+  border-radius: 50%;
+}
 
 .goog-te-gadget-icon {
   display: none;

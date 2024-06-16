@@ -314,3 +314,12 @@ footer input {
   font-size: 14px;
   color: #333;
 }
+.logo {
+  left: 4%;
+  position: relative;
+  top: 162px;
+  justify-content: center;
+  display: flex;
+  width: 12%;
+  border-radius: 50%;
+}
