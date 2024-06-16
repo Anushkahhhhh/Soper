@@ -436,6 +436,13 @@ body {
   font-family: Arial, sans-serif !important;
 }
 
+.girlpic {
+  width: 400px;
+  height: 370px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
 @media only screen and (max-width: 1366px) {
   .world {
     right: 67px;
@@ -448,5 +455,15 @@ body {
   .aboutbut {
     left: 68%;
     bottom: 577px;
+  }
+
+  .search-box {
+    position: relative;
+    right: 50px;
+  }
+
+  .pic {
+    position: relative;
+    right: 50px;
   }
 }
