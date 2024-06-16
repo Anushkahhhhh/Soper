@@ -268,8 +268,8 @@ footer input {
   background-color: #F0EBCE;
 }
 
-.fa-user:hover{
-  color:#AA8B56 ;
+.fa-user:hover {
+  color: #AA8B56;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -278,4 +278,39 @@ footer input {
     left: 0;
   }
 
+}
+
+
+.goog-te-gadget img {
+  display: none
+}
+
+.VIpgJd-ZVi9od-ORHb {
+  display: none
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  display: none;
+}
+
+
+.goog-te-gadget-simple {
+  background-color: green;
+
+
+}
+
+.goog-te-combo {
+  font-size: 14px;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.goog-te-menu-value {
+  font-size: 14px;
+  color: #333;
 }

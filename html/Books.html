@@ -8,25 +8,27 @@
   <title>Գրքեր</title>
   <link rel="stylesheet" href="../css/Books.css">
   <script src="https://kit.fontawesome.com/81b271aa08.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 </head>
 
 <body>
   <header>
+    <div id="google_translate_element"></div>
     <nav class="navbar" id="navbar">
       <div class="container">
         <ul class="nav-list">
           <li><a href="../Home.html">Գլխավոր էջ</a></li>
-          <li><a href="...">Գրքեր</a></li>
+          <li><a href="Books.html">Գրքեր</a></li>
           <li><a href="Com.html">Համայնք</a></li>
           <li><a href="aboutUs.html">Մեր մասին</a></li>
           <li><a href="contact.html">Կապ մեզ հետ</a></li>
           <a href="Login.html"><i class="fa-regular fa-user nic"></i></a>
           <a href="Sign.html"><i class="fa-solid fa-right-to-bracket nic"></i></a>
-
         </ul>
       </div>
     </nav>
   </header>
+
   <div class="typeofbooks">
     <h2 style="color:#AA8B56; margin-left: 20px;">Ժանրեր</h2>
     <p class="book">Առակներ</p>
@@ -42,6 +44,7 @@
     <p class="book">Ֆանտաստիկա</p>
     <p class="book">Ֆենտեզի</p>
   </div>
+
   <div class="books">
     <h2 style="color: #F0EBCE; margin-left: 50px;">Գրքեր</h2>
     <select id="selectbox1">
@@ -108,54 +111,93 @@
       </div>
     </div>
   </div>
-"
+
   <h1 style="color:#AA8B56; margin-top: -1050px;">Շուտով...</h1>
 
   <div class="slideshow-container">
     <div class="mySlides fade">
-      <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Թունելից-13կմ.png" >
-
+      <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/Թունելից-13կմ.png">
     </div>
 
     <div class="mySlides fade">
-      <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/70d808fbfd69a2030eac6a11b7ecb44c-removebg-preview.png" >
-
+      <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/70d808fbfd69a2030eac6a11b7ecb44c-removebg-preview.png">
     </div>
 
     <div class="mySlides fade">
-      <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/550d4fb947ac33990c544b885912d1a9-removebg-preview.png" >
-  
+      <img src="../Images/ֆԱՆՏԱՍՏԻԿԱ/550d4fb947ac33990c544b885912d1a9-removebg-preview.png">
+    </div>
+
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+  </div>
+  <br>
+  <div class="dots">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
   </div>
 
-  <a class=" prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
+  <footer>
+    <p class="footertext"><a href="../Home.html" style="color: #F0EBCE; text-decoration: none;">Գլխավոր էջ</a> </p>
+    <p class="footertext"><a href="Books.html" style="color: #F0EBCE; text-decoration: none;">Գրքեր</a> </p>
+    <p class="footertext"><a href="Com.html"  style="color: #F0EBCE; text-decoration: none;">Համայնք</a> </p>
+    <p class="footertext"> <a href="aboutUs.html"  style="color: #F0EBCE; text-decoration: none;">Մեր մասին </a></p>
+    <p class="footertextcon"><a href="contact.html"  style="color: #F0EBCE; text-decoration: none;">Կապ մեզ հետ </a></p>
+    <p class="footertextcon">+37400000000</p>
+    <p class="footertextcon"> Soper@gmail.com </p>
+    <input type="text" placeholder="Գրեք կարծիք կայքի աշխատանքը բարելավելու համար">
+    <button class="send">Ուղարկել</button>
+    <div class="webpages">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-telegram"></i>
+      <p class="copyright">&copy; 2024 Սոփեր. բոլոր իրավունքները պաշտպանված են.</p>
     </div>
-    <br>
-    <div class="dots">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-    </div>
-    <footer>
-      <p class="footertext">Գլխավոր էջ </p>
-      <p class="footertext">Գրքեր </p>
-      <p class="footertext">Համայնք </p>
-      <p class="footertext"> Մեր մասին </p>
-      <p class="footertextcon">Կապ մեզ հետ </p>
-      <p class="footertextcon">+37400000000</p>
-      <p class="footertextcon"> Soper@gmail.com </p>
-      <input type="text" placeholder="Գրեք կարծիք կայքի աշխատանքը բարելավելու համար"> <button
-        class="send">Ուղարկել</button>
-      <div class="webpages">
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-instagram"></i>
-        <i class="fa-brands fa-telegram"></i>
-        <p class="copyright">&copy; 2024 Սոփեր. բոլոր իրավունքները պաշտպանված են.</p>
-      </div>
-    </footer>
-    <script src="../js/Books.js"></script>
-   <script type="text/javascript"
-      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  </footer>
+
+  <dialog id="dialog">
+    <img src="../Images/Ալեքս.jfif" class="author">
+    <button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
+    <p class="about-author">Ալեքս Մայքլիդիսը (ծնվ. 1977թ.) բրիտանացի գրող է, սցենարիստ: Ծնվել է Կիպրոսում, հայրը
+      հույն է, մայրը՝ անգլուհի: Մայքլիդիսն անգլիական գրականություն ուսումնասիրել է Քեմբրիջի համալսարանում: Նա
+      սկզբում ուժերը փորձել է որպես սցենարիստ։ «Դևը, որին ճանաչում եք» ֆիլմի սցենարի հեղինակն է և «Խարդախները» ֆիլմի
+      սցենարի համահեղինակը: Նրա դեբյուտային վեպը՝ «Լռակյաց հիվանդը», հրապարակման առաջին իսկ շաբաթվա ընթացքում
+      հայտնվել է New York Times-ի կոշտ կազմով գեղարվեստական բեսթսելլերների առաջին հորիզոնականում, իսկ 2019 թվականին
+      զբաղեցրելէ Amazon.com-ում ամենից շատ վաճառված գեղարվեստական գրքերի ցուցակի 2-րդ հորիզոնականը: «Լռակյաց
+      հիվանդը» նվաճել է նաև Goodreads մրցանակը, որպես 2019-ի լավագույն առեղծվածային թրիլլեր:</p>
+    <h3 class="title">Լռակյաց հիվանդը</h3>
+
+
+    <p class="about"> Ալիսիա Բերենսոնի կյանքը, թվում է, կատարյալ է: Հայտնի նկարչուհին ամուսնացած է նորաձևության
+      ոլորտում հանրահայտ
+      լուսանկարչի հետ, ապրում է Լոնդոնի հեղինակավոր թաղամասում: Մի օր, ուշ երեկոյան, ամուսինը՝ Գաբրիելը, վերադառնում
+      է նկարահանումից, և Ալիսիան 5 անգամ կրակում է նրա դեմքին, ինչից հետո այլևս ոչ մի բառ չի արտասանում:
+    </p>
+
+    <p class="about">Ալիսիան հրաժարվում է խոսել կամ որևէ կերպ բացատրել եղելությունը, ինչի պատճառով ընտանեկան
+      ողբերգությունը
+      վերածվում է մեծ առեղծվածի, որը բորբոքում է հանրության երևակայությունը։ Ալիսիան անմիջապես հայտնի է դառնում, իսկ
+      նա՝ լռակյաց հիվանդը, գովազդային վահանակներից ու հանրության ուշադրությունից թաքնվում է հոգեբուժարանում:
+    </p>
+
+    <p class="about"> Թեո Ֆաբերը քրեական հոգեթերապևտ է. նա երկար է սպասել Ալիսիայի հետ աշխատելու հնարավորությանը:
+      Որոշել է ստիպել,
+      որ Ալիսիան խոսի և բացահայտի, թե ինչու է սպանել ամուսնուն: </p>
+
+  </dialog>
+
+  <script src="../js/Books.js"></script>
+  <script src="../Login.js"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'hy',
+        includedLanguages: 'en,ru,hy',
+        autoDisplay: false,
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
 </body>
 
 </html>

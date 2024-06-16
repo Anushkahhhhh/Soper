@@ -208,11 +208,79 @@ footer input {
   font-size: 35px;
   padding: 10px;
 }
+
 .footertextcon:hover {
   color: #AA8B56;
   cursor: pointer;
 }
+
 .footertext:hover {
   color: #AA8B56;
   cursor: pointer;
+}
+
+.goog-te-gadget img {
+  display: none
+}
+
+.VIpgJd-ZVi9od-ORHb {
+  display: none
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  display: none;
+}
+
+
+.goog-te-gadget-simple {
+  background-color: green;
+
+
+}
+
+.goog-te-combo {
+  font-size: 14px;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.goog-te-menu-value {
+  font-size: 14px;
+  color: #333;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+.goog-te-gadget-icon {
+  display: none;
+}
+
+.goog-te-menu-value {
+  color: inherit !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+.goog-te-menu2 {
+  max-width: 100% !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.goog-te-menu2-item div,
+.goog-te-menu2-item:link div,
+.goog-te-menu2-item:visited div,
+.goog-te-menu2-item:active div {
+  color: black !important;
+  font-family: Arial, sans-serif !important;
 }

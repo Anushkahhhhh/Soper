@@ -11,6 +11,7 @@ body {
   position: relative;
   border-bottom: 1px solid #F0EBCE;
 }
+
 .srch {
   position: relative;
   right: 75px;
@@ -62,17 +63,19 @@ body {
   color: #AA8B56;
 }
 
-.par{
+.par {
   color: #F0EBCE;
   position: relative;
   left: 150px;
   top: 100px;
 
 }
-.welcome{
+
+.welcome {
   width: 700px;
   font-size: 60px;
 }
+
 footer {
   width: 100%;
   height: 300px;
@@ -143,18 +146,22 @@ footer input {
   font-size: 35px;
   padding: 10px;
 }
-.webpages i:hover{
+
+.webpages i:hover {
   color: #AA8B56;
 }
+
 .footertextcon:hover {
   color: #AA8B56;
   cursor: pointer;
 }
+
 .footertext:hover {
   color: #AA8B56;
   cursor: pointer;
 }
-.pic{
+
+.pic {
   position: relative;
   left: 60%;
   bottom: 170px;
@@ -162,6 +169,7 @@ footer input {
   width: 542px;
   height: 473px;
 }
+
 :root {
   --hue: 220deg;
   --base-bg-sat: 20%;
@@ -200,17 +208,24 @@ div.notice {
 }
 
 .world svg {
-  width: 4em; height: 1em;
+  width: 4em;
+  height: 1em;
   margin-top: calc(-2px + -0.05em);
   display: inline;
   animation: world-scroll 3s linear infinite;
 }
 
 @keyframes world-scroll {
-  from { margin-left: -2.75em; }
-  to { margin-left: -1em; }
+  from {
+    margin-left: -2.75em;
+  }
+
+  to {
+    margin-left: -1em;
+  }
 }
-.secondpart{
+
+.secondpart {
   background-color: #F0EBCE;
   width: 100%;
   height: 600px;
@@ -249,15 +264,17 @@ div.notice {
 
 
 }
- .pict {
-    position: relative;
-    left: 5%;
-    bottom: 302px;
-    border: #AA8B56 solid 1px;
-    width: 500px;
-    height: 400px;
+
+.pict {
+  position: relative;
+  left: 5%;
+  bottom: 302px;
+  border: #AA8B56 solid 1px;
+  width: 500px;
+  height: 400px;
 }
-.abouttitle{
+
+.abouttitle {
   position: absolute;
   top: 6%;
   left: 60%;
@@ -297,7 +314,7 @@ div.notice {
   left: 20px;
 }
 
-.seebooks{
+.seebooks {
   height: 60px;
   width: 120px;
   position: relative;
@@ -308,43 +325,113 @@ div.notice {
   border: #F0EBCE 1px solid;
   border-radius: 20px;
 }
-.seebooks:hover{
-background-color: #AA8B56;
-cursor: pointer;
+
+.seebooks:hover {
+  background-color: #AA8B56;
+  cursor: pointer;
 }
 
-.aboutus{
+.aboutus {
   position: absolute;
   left: 60%;
   top: 25%;
   font-size: 18px;
 }
 
-.welcometwo{
+.welcometwo {
   width: 700px;
   font-size: 25px;
 }
 
-.aboutbut{
+.aboutbut {
 
-    height: 60px;
-    width: 180px;
-    position: absolute;
-    left: 63%;
-    font-size: 16px;
-    background-color:#F0EBCE;
-    border: #AA8B56 2px solid;
-    border-radius: 20px;
+  height: 60px;
+  width: 180px;
+  position: absolute;
+  left: 63%;
+  font-size: 16px;
+  background-color: #F0EBCE;
+  border: #AA8B56 2px solid;
+  border-radius: 20px;
 }
-.aboutbut:hover{
+
+.aboutbut:hover {
   background-color: #AA8B56;
   color: #F0EBCE;
 }
+
 .imgpart2 {
   position: relative;
   right: 315px;
   top: -793px;
 }
-.nic{
+
+.nic {
   color: #F0EBCE;
+}
+
+.goog-te-gadget img {
+  display: none
+}
+
+.VIpgJd-ZVi9od-ORHb {
+  display: none
+}
+
+.VIpgJd-ZVi9od-ORHb-OEVmcd {
+  display: none;
+}
+
+
+.goog-te-gadget-simple {
+  background-color: green;
+
+
+}
+
+.goog-te-combo {
+  font-size: 14px;
+  color: #333;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.goog-te-menu-value {
+  font-size: 14px;
+  color: #333;
+}
+
+.goog-te-banner-frame.skiptranslate {
+  display: none !important;
+}
+
+body {
+  top: 0px !important;
+}
+
+.goog-te-gadget-icon {
+  display: none;
+}
+
+.goog-te-menu-value {
+  color: inherit !important;
+  font-family: inherit !important;
+  font-size: inherit !important;
+}
+
+.goog-te-menu2 {
+  max-width: 100% !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.goog-te-menu2-item div,
+.goog-te-menu2-item:link div,
+.goog-te-menu2-item:visited div,
+.goog-te-menu2-item:active div {
+  color: black !important;
+  font-family: Arial, sans-serif !important;
 }

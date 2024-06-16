@@ -8,15 +8,19 @@
   <title>Համայնք</title>
   <link rel="stylesheet" href="../css/Com.css">
   <script src="https://kit.fontawesome.com/81b271aa08.js" crossorigin="anonymous"></script>
+
+  <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
 </head>
 
 <body>
   <header>
+    <div id="google_translate_element"></div>
     <nav class="navbar" id="navbar">
       <div class="container">
         <ul class="nav-list">
           <li><a href="../Home.html">Գլխավոր էջ</a></li>
-          <li><a href="...">Գրքեր</a></li>
+          <li><a href="Books.html">Գրքեր</a></li>
           <li><a href="Com.html">Համայնք</a></li>
           <li><a href="aboutUs.html">Մեր մասին</a></li>
           <li><a href="contact.html">Կապ մեզ հետ</a></li>
@@ -90,11 +94,11 @@
 
 </div>
   <footer>
-    <p class=" footertext">Գլխավոր էջ </p>
-    <p class="footertext">Գրքեր </p>
-    <p class="footertext">Համայնք </p>
-    <p class="footertext"> Մեր մասին </p>
-    <p class="footertextcon">Կապ մեզ հետ </p>
+    <p class="footertext"><a href="../Home.html" style="color: #F0EBCE; text-decoration: none;">Գլխավոր էջ</a> </p>
+    <p class="footertext"><a href="Books.html" style="color: #F0EBCE; text-decoration: none;">Գրքեր</a> </p>
+    <p class="footertext"><a href="Com.html"  style="color: #F0EBCE; text-decoration: none;">Համայնք</a> </p>
+    <p class="footertext"> <a href="aboutUs.html"  style="color: #F0EBCE; text-decoration: none;">Մեր մասին </a></p>
+    <p class="footertextcon"><a href="contact.html"  style="color: #F0EBCE; text-decoration: none;">Կապ մեզ հետ </a></p>
     <p class="footertextcon">+37400000000</p>
     <p class="footertextcon"> Soper@gmail.com </p>
     <input type="text" placeholder="Գրեք կարծիք կայքի աշխատանքը բարելավելու համար"> <button
@@ -107,8 +111,16 @@
     </div>
   </footer>
   <script src="../js/chat.js"></script>
- <script type="text/javascript"
-      src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  <script type="text/javascript">
+    function googleTranslateElementInit() {
+      new google.translate.TranslateElement({
+        pageLanguage: 'hy',
+        includedLanguages: 'en,ru,hy',
+        autoDisplay: false,
+        layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+      }, 'google_translate_element');
+    }
+  </script>
 </body>
 
 </html>
