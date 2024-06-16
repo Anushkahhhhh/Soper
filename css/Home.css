@@ -435,3 +435,18 @@ body {
   color: black !important;
   font-family: Arial, sans-serif !important;
 }
+
+@media only screen and (max-width: 1366px) {
+  .world {
+    right: 67px;
+  }
+
+  .welcome {
+    font-size: 48px;
+  }
+
+  .aboutbut {
+    left: 68%;
+    bottom: 577px;
+  }
+}
